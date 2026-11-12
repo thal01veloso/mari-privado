@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARI: A Arte de Ser Intensa — Livro-Ensaio Fotográfico & Reflexões | Frases Maduras</title>
+  <meta name="description" content="Um livro-ensaio fotográfico exclusivo da coleção Frases Maduras que celebra o charme, a autoconfiança e a beleza real da mulher plena em 12 páginas de estética editorial de luxo.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-obsidian: #0a0708;
+      --bg-dark: #110d0e;
+      --bg-card: #181214;
+      --bg-wine-deep: #240c13;
+      --bg-cream: #f7f3ee;
+      --bg-sand: #ede5dc;
+      --wine: #7a162b;
+      --wine-bright: #a3223c;
+      --gold: #c9a46c;
+      --gold-light: #e6cb9f;
+      --gold-dark: #9c7843;
+      --text-light: #f6f1eb;
+      --text-muted: #b8aba3;
+      --text-dark: #1e181a;
+      --border-gold: rgba(201, 164, 108, 0.25);
+      --shadow-gold: 0 15px 40px rgba(201, 164, 108, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-obsidian);
+      color: var(--text-light);
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .serif {
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    /* ==========================================
+       CONFIGURAÇÃO DE LINKS E BOTÕES GLOBAIS
+       ========================================== */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .section-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+      padding: 6px 16px;
+      border: 1px solid var(--border-gold);
+      border-radius: 999px;
+      background: rgba(201, 164, 108, 0.06);
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--text-light);
+      margin-bottom: 18px;
+    }
+
+    .section-title span {
+      color: var(--gold-light);
+      font-style: italic;
+    }
+
+    .gold-divider {
+      width: 70px;
+      height: 1.5px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 22px auto;
+    }
+
+    /* Botão CTA de Alta Conversão */
+    .btn-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(135deg, #d8b57e 0%, #b3894c 50%, #966d33 100%);
+      color: #120c0e;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 20px 38px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 12px 35px rgba(201, 164, 108, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .btn-cta:hover {
+      transform: translateY(-3px) scale(1.01);
+      box-shadow: 0 18px 45px rgba(201, 164, 108, 0.48), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+      filter: brightness(1.06);
+    }
+
+    .btn-cta-sub {
+      display: block;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 10px;
+      letter-spacing: 0.06em;
+    }
+
+    /* ==========================================
+       BARRA DE TOPO / AVISO DE EDIÇÃO EXCLUSIVA
+       ========================================== */
+    .top-announcement {
+      background: linear-gradient(90deg, #1b090e 0%, #4a101d 50%, #1b090e 100%);
+      border-bottom: 1px solid rgba(201, 164, 108, 0.25);
+      padding: 10px 16px;
+      text-align: center;
+      font-size: 0.76rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+
+    .top-announcement strong {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* Navegação Flutuante */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 900;
+      background: rgba(10, 7, 8, 0.86);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(201, 164, 108, 0.14);
+      padding: 14px 0;
+    }
+
+    .navbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-logo span {
+      font-size: 0.7rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      color: var(--gold);
+      border-left: 1px solid var(--border-gold);
+      padding-left: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .nav-links a.nav-item {
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color 0.2s;
+    }
+
+    .nav-links a.nav-item:hover {
+      color: var(--gold-light);
+    }
+
+    .nav-cta-mini {
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      padding: 9px 20px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: all 0.25s;
+    }
+
+    .nav-cta-mini:hover {
+      background: var(--gold);
+      color: #120c0e;
+    }
+
+    /* ==========================================
+       HERO SECTION (PRIMEIRA DOBRA)
+       ========================================== */
+    .hero {
+      position: relative;
+      padding: 72px 0 96px;
+      background:
+        radial-gradient(circle at 80% 25%, rgba(122, 22, 43, 0.28) 0%, transparent 55%),
+        radial-gradient(circle at 20% 80%, rgba(201, 164, 108, 0.12) 0%, transparent 50%),
+        var(--bg-obsidian);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.12fr 0.88fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 16px;
+      border-radius: 999px;
+      background: rgba(122, 22, 43, 0.35);
+      border: 1px solid rgba(201, 164, 108, 0.35);
+      color: var(--gold-light);
+      font-size: 0.73rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.8rem, 5.4vw, 4.7rem);
+      font-weight: 300;
+      line-height: 1.06;
+      letter-spacing: 0.02em;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .hero-title strong {
+      font-weight: 600;
+      display: block;
+      color: var(--gold-light);
+      font-style: italic;
+    }
+
+    .hero-lead {
+      font-size: 1.08rem;
+      color: var(--text-muted);
+      font-weight: 300;
+      margin-bottom: 28px;
+      max-width: 580px;
+      line-height: 1.75;
+    }
+
+    .hero-lead strong {
+      color: var(--text-light);
+      font-weight: 500;
+    }
+
+    .hero-highlights {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 34px;
+      max-width: 560px;
+    }
+
+    .hero-pill {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(24, 18, 20, 0.8);
+      border: 1px solid rgba(201, 164, 108, 0.18);
+      padding: 11px 15px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      color: var(--text-light);
+    }
+
+    .hero-pill-icon {
+      color: var(--gold);
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    /* Visual Mockup Editorial */
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .book-showcase {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      aspect-ratio: 3 / 4.1;
+      border-radius: 14px;
+      padding: 12px;
+      background: linear-gradient(145deg, rgba(201, 164, 108, 0.35), rgba(107, 20, 38, 0.3));
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.85), 0 0 50px rgba(201, 164, 108, 0.15);
+    }
+
+    .book-showcase-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #0d090a;
+    }
+
+    .book-showcase-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 18%;
+      transition: transform 0.7s ease;
+    }
+
+    .book-showcase:hover .book-showcase-inner img {
+      transform: scale(1.03);
+    }
+
+    .book-overlay-cover {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(10, 7, 8, 0.45) 0%,
+        rgba(10, 7, 8, 0.05) 38%,
+        rgba(10, 7, 8, 0.65) 75%,
+        rgba(10, 7, 8, 0.94) 100%
+      );
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 26px 24px;
+      text-align: center;
+      border: 1px solid rgba(201, 164, 108, 0.35);
+      margin: 12px;
+      pointer-events: none;
+    }
+
+    .book-cover-top {
+      font-size: 0.65rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+
+    .book-cover-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 0.12em;
+      color: #fff;
+      line-height: 1;
+    }
+
+    .book-cover-sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--gold-light);
+      margin-top: 4px;
+      margin-bottom: 8px;
+    }
+
+    .floating-card-badge {
+      position: absolute;
+      bottom: -20px;
+      left: -24px;
+      background: rgba(20, 14, 16, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--gold);
+      border-radius: 12px;
+      padding: 14px 20px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      max-width: 280px;
+    }
+
+    .floating-card-badge img {
+      width: 52px;
+      height: 52px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 1px solid rgba(201, 164, 108, 0.4);
+    }
+
+    .floating-card-badge div strong {
+      display: block;
+      font-size: 0.82rem;
+      color: var(--gold-light);
+    }
+
+    .floating-card-badge div span {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================
+       SEÇÃO MANIFESTO / CONEXÃO EMOCIONAL
+       ========================================== */
+    .manifesto-section {
+      background-color: var(--bg-cream);
+      color: var(--text-dark);
+      padding: 96px 0;
+      position: relative;
+    }
+
+    .manifesto-grid {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .manifesto-photo-stack {
+      position: relative;
+      padding: 16px;
+    }
+
+    .manifesto-main-img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      object-position: center 20%;
+      border-radius: 8px;
+      box-shadow: 0 25px 50px rgba(30, 24, 26, 0.22);
+    }
+
+    .manifesto-secondary-img {
+      position: absolute;
+      bottom: -24px;
+      right: -18px;
+      width: 210px;
+      height: 250px;
+      object-fit: cover;
+      object-position: center 15%;
+      border: 6px solid var(--bg-cream);
+      border-radius: 8px;
+      box-shadow: 0 18px 35px rgba(0,0,0,0.25);
+    }
+
+    .manifesto-content .section-tag {
+      color: var(--wine);
+      border-color: rgba(122, 22, 43, 0.3);
+      background: rgba(122, 22, 43, 0.06);
+    }
+
+    .manifesto-content .section-title {
+      color: var(--text-dark);
+    }
+
+    .manifesto-content .section-title span {
+      color: var(--wine);
+    }
+
+    .manifesto-quote-box {
+      border-left: 3px solid var(--wine);
+      padding: 14px 22px;
+      margin: 24px 0;
+      background: var(--bg-sand);
+      border-radius: 0 8px 8px 0;
+    }
+
+    .manifesto-quote-box p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.45rem;
+      font-style: italic;
+      color: var(--wine);
+      line-height: 1.4;
+    }
+
+    .manifesto-text {
+      font-size: 1rem;
+      color: #3d3336;
+      margin-bottom: 18px;
+      line-height: 1.8;
+    }
+
+    /* ==========================================
+       OS 4 ATOS DO ENSAIO (JORNADA NARRATIVA)
+       ========================================== */
+    .acts-section {
+      padding: 100px 0;
+      background: linear-gradient(180deg, var(--bg-obsidian) 0%, #160f12 50%, var(--bg-obsidian) 100%);
+    }
+
+    .acts-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 64px;
+    }
+
+    .acts-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+
+    .act-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-gold);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .act-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-gold);
+      border-color: var(--gold);
+    }
+
+    .act-img-wrapper {
+      position: relative;
+      height: 320px;
+      overflow: hidden;
+    }
+
+    .act-img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+      transition: transform 0.6s ease;
+    }
+
+    .act-card:hover .act-img-wrapper img {
+      transform: scale(1.05);
+    }
+
+    .act-number-badge {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background: rgba(15, 11, 13, 0.88);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .act-body {
+      padding: 28px 30px 32px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+
+    .act-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.95rem;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .act-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+      line-height: 1.7;
+    }
+
+    .act-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--gold-light);
+      padding-top: 14px;
+      border-top: 1px solid rgba(201, 164, 108, 0.16);
+    }
+
+    /* ==========================================
+       GALERIA DE SPOILERS / PRÉVIA DAS PÁGINAS
+       ========================================== */
+    .preview-section {
+      padding: 96px 0;
+      background-color: #0d090b;
+      border-top: 1px solid rgba(201, 164, 108, 0.12);
+      border-bottom: 1px solid rgba(201, 164, 108, 0.12);
+    }
+
+    .preview-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 54px;
+    }
+
+    .gallery-bento {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-auto-rows: 270px;
+      gap: 20px;
+    }
+
+    .bento-item {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(201, 164, 108, 0.25);
+      background: var(--bg-card);
+    }
+
+    .bento-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+      transition: transform 0.6s ease;
+    }
+
+    .bento-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .bento-caption {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(10, 7, 8, 0.92) 0%, rgba(10, 7, 8, 0.2) 45%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 22px;
+    }
+
+    .bento-caption span {
+      font-size: 0.68rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .bento-caption p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-style: italic;
+      color: #fff;
+      line-height: 1.3;
+    }
+
+    .span-5 { grid-column: span 5; }
+    .span-7 { grid-column: span 7; }
+    .span-4 { grid-column: span 4; }
+    .row-2  { grid-row: span 2; }
+
+    /* ==========================================
+       DIFERENCIAIS E EXPERIÊNCIA DE LEITURA
+       ========================================== */
+    .features-section {
+      padding: 90px 0;
+      background: radial-gradient(circle at center, #1d0e13 0%, var(--bg-obsidian) 75%);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 50px;
+    }
+
+    .feature-box {
+      background: rgba(24, 18, 20, 0.85);
+      border: 1px solid var(--border-gold);
+      padding: 34px 28px;
+      border-radius: 14px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+
+    .feature-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      background: rgba(201, 164, 108, 0.12);
+      border: 1px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      color: var(--gold-light);
+    }
+
+    .feature-box h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      color: #fff;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    .feature-box p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    /* ==========================================
+       DEPOIMENTOS / PROVA SOCIAL
+       ========================================== */
+    .testimonials-section {
+      padding: 90px 0;
+      background-color: var(--bg-obsidian);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+      margin-top: 48px;
+    }
+
+    .testimonial-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(201, 164, 108, 0.18);
+      padding: 30px;
+      border-radius: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .stars {
+      color: var(--gold);
+      font-size: 0.95rem;
+      letter-spacing: 3px;
+      margin-bottom: 16px;
+    }
+
+    .testimonial-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--text-light);
+      margin-bottom: 20px;
+      line-height: 1.55;
+    }
+
+    .testimonial-author {
+      font-size: 0.8rem;
+      color: var(--gold-light);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .testimonial-author span {
+      display: block;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0;
+      margin-top: 2px;
+    }
+
+    /* ==========================================
+       OFERTA / CAIXA DE PREÇO & GARANTIA
+       ========================================== */
+    .offer-section {
+      padding: 100px 0;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(122, 22, 43, 0.35) 0%, transparent 65%),
+        #0c0809;
+      border-top: 1px solid var(--border-gold);
+    }
+
+    .offer-box {
+      max-width: 920px;
+      margin: 0 auto;
+      background: linear-gradient(145deg, #1a1215 0%, #100b0d 100%);
+      border: 1.5px solid var(--gold);
+      border-radius: 20px;
+      padding: 52px 48px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9), 0 0 60px rgba(201, 164, 108, 0.12);
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 44px;
+      align-items: center;
+      position: relative;
+    }
+
+    .offer-ribbon {
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, var(--wine), var(--wine-bright));
+      color: #fff;
+      border: 1px solid var(--gold);
+      padding: 6px 24px;
+      border-radius: 999px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .offer-product-preview {
+      text-align: center;
+    }
+
+    .offer-product-preview img {
+      width: 100%;
+      max-width: 310px;
+      border-radius: 12px;
+      border: 1px solid var(--gold);
+      box-shadow: 0 20px 45px rgba(0,0,0,0.75);
+      margin-bottom: 16px;
+    }
+
+    .offer-checklist {
+      list-style: none;
+      margin: 22px 0 28px;
+    }
+
+    .offer-checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 12px;
+      font-size: 0.92rem;
+      color: var(--text-light);
+    }
+
+    .offer-checklist li span.check {
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .price-box {
+      background: rgba(10, 7, 8, 0.65);
+      border: 1px solid rgba(201, 164, 108, 0.25);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-bottom: 24px;
+    }
+
+    .price-old {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: line-through;
+    }
+
+    .price-main {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.6rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1;
+      margin: 6px 0;
+    }
+
+    .price-main small {
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--text-light);
+    }
+
+    .price-installments {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .guarantee-strip {
+      max-width: 780px;
+      margin: 42px auto 0;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      background: rgba(24, 18, 20, 0.75);
+      border: 1px solid rgba(201, 164, 108, 0.22);
+      border-radius: 14px;
+      padding: 24px 30px;
+    }
+
+    .guarantee-badge {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      background: rgba(201, 164, 108, 0.1);
+      color: var(--gold-light);
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+
+    .guarantee-badge small {
+      font-size: 0.58rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 3px;
+    }
+
+    .guarantee-text h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.45rem;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .guarantee-text p {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================
+       FAQ (PERGUNTAS FREQUENTES)
+       ========================================== */
+    .faq-section {
+      padding: 90px 0;
+      background-color: var(--bg-obsidian);
+    }
+
+    .faq-list {
+      max-width: 800px;
+      margin: 44px auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    details.faq-item {
+      background: var(--bg-card);
+      border: 1px solid rgba(201, 164, 108, 0.2);
+      border-radius: 12px;
+      padding: 20px 26px;
+      transition: border-color 0.25s;
+    }
+
+    details.faq-item[open] {
+      border-color: var(--gold);
+    }
+
+    details.faq-item summary {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 500;
+      color: #fff;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    details.faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.faq-item summary::after {
+      content: "+";
+      color: var(--gold);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 300;
+      transition: transform 0.25s;
+    }
+
+    details.faq-item[open] summary::after {
+      transform: rotate(45deg);
+    }
+
+    details.faq-item p {
+      margin-top: 14px;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      padding-top: 12px;
+      border-top: 1px solid rgba(201, 164, 108, 0.12);
+    }
+
+    /* ==========================================
+       RODAPÉ EDITORIAL
+       ========================================== */
+    footer {
+      background-color: #060405;
+      border-top: 1px solid rgba(201, 164, 108, 0.15);
+      padding: 56px 0 40px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .footer-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      color: var(--gold-light);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* ==========================================
+       RESPONSIVIDADE (MOBILE & TABLET)
+       ========================================== */
+    @media (max-width: 960px) {
+      .hero-grid,
+      .manifesto-grid,
+      .offer-box {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding: 44px 0 72px;
+      }
+
+      .hero-visual {
+        order: -1;
+        margin-bottom: 20px;
+      }
+
+      .acts-grid,
+      .features-grid,
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-bento {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+      }
+
+      .span-5, .span-7, .span-4, .row-2 {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+
+      .nav-links a.nav-item {
+        display: none;
+      }
+
+      .offer-box {
+        padding: 40px 24px;
+      }
+
+      .guarantee-strip {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- BARRA DE TOPO -->
+  <div class="top-announcement">
+    ✨ <strong>Edição Especial Colecionador</strong> • Acesso Digital Imediato &amp; 100% Discreto
+  </div>
+
+  <!-- NAVEGAÇÃO -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="brand-logo">
+        MARI <span>Frases Maduras</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#sobre" class="nav-item">O Manifesto</a>
+        <a href="#atos" class="nav-item">Os 4 Atos</a>
+        <a href="#previa" class="nav-item">Prévia Visual</a>
+        <a href="#faq" class="nav-item">Dúvidas</a>
+        <a href="https://hotm.io/privado-Mari" target="_blank" rel="noopener" class="nav-cta-mini">Acessar Agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       HERO SECTION (PRIMEIRA DOBRA)
+       ======================================================== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      
+      <!-- Coluna de Copy -->
+      <div>
+        <div class="hero-badge">
+          <span>Livro-Ensaio Editorial Exclusivo • 12 Páginas em Alta Definição</span>
+        </div>
+
+        <h1 class="hero-title">
+          MARI:
+          <strong>A Arte de Ser Intensa</strong>
+        </h1>
+
+        <p class="hero-lead">
+          Há uma beleza impossível de imitar: aquela que nasce quando uma mulher para de pedir permissão para existir por inteiro. Acompanhe <strong>um dia íntimo e solar ao lado de Mari</strong> em um editorial fotográfico de luxo com reflexões inéditas da coleção <strong>Frases Maduras</strong>.
+        </p>
+
+        <div class="hero-highlights">
+          <div class="hero-pill">
+            <span class="hero-pill-icon">✦</span>
+            <span><strong>10 Retratos Exclusivos</strong> em Alta Resolução</span>
+          </div>
+          <div class="hero-pill">
+            <span class="hero-pill-icon">✦</span>
+            <span><strong>Narrativa em 4 Atos</strong> (Manhã ao Spa Noturno)</span>
+          </div>
+          <div class="hero-pill">
+            <span class="hero-pill-icon">✦</span>
+            <span><strong>Textos &amp; Frases Maduras</strong> Inéditas</span>
+          </div>
+          <div class="hero-pill">
+            <span class="hero-pill-icon">✦</span>
+            <span><strong>Leitura Imediata</strong> (Celular, Tablet ou PC)</span>
+          </div>
+        </div>
+
+          <div>
+            <!-- LINK DE CHECKOUT DA HOTMART -->
+            <a href="https://hotm.io/privado-Mari" target="_blank" rel="noopener" class="btn-cta">
+              Quero Meu Acesso Imediato por R$ 11,97
+              <span>→</span>
+            </a>
+            <span class="btn-cta-sub">🔒 Compra 100% Segura e Discreta • Entrega imediata por e-mail</span>
+          </div>
+      </div>
+
+      <!-- Coluna Visual (Mockup da Capa) -->
+      <div class="hero-visual">
+        <div class="book-showcase">
+          <div class="book-showcase-inner">
+            <img src="Retrato elegante à beira da piscina(1).png" alt="Capa do Livro-Ensaio MARI: A Arte de Ser Intensa">
+            <div class="book-overlay-cover">
+              <div class="book-cover-top">Edição Especial • Frases Maduras</div>
+              <div>
+                <div class="book-cover-title">MARI</div>
+                <div class="book-cover-sub">A Arte de Ser Intensa</div>
+                <div style="width: 45px; height: 1px; background: var(--gold); margin: 8px auto;"></div>
+                <div style="font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.85);">
+                  Ensaio Fotográfico &amp; Reflexões
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Selo Flutuante -->
+          <div class="floating-card-badge">
+            <img src="Capa_Hotmart_600x600.png" alt="Miniatura Edição Digital">
+            <div>
+              <strong>Estética de Revista de Luxo</strong>
+              <span>PDF Editorial HD pronto para colecionar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SEÇÃO MANIFESTO (CONEXÃO EMOCIONAL)
+       ======================================================== -->
+  <section id="sobre" class="manifesto-section">
+    <div class="container manifesto-grid">
+      
+      <div class="manifesto-photo-stack">
+        <img class="manifesto-main-img" src="Mulher Desfrutando Café Quente na Cozinha.png" alt="Mari apreciando café quente pela manhã">
+        <img class="manifesto-secondary-img" src="Arrumando a cama com elegância.png" alt="Manhã de cetim com elegância">
+      </div>
+
+      <div class="manifesto-content">
+        <span class="section-tag">O Manifesto Editorial</span>
+        <h2 class="section-title">
+          O Charme que Somente o <span>Tempo Lapida</span>
+        </h2>
+
+        <p class="manifesto-text">
+          Muito além de um simples álbum de fotografias, <strong>"MARI: A Arte de Ser Intensa"</strong> foi desenhado como uma experiência sensorial e poética. Cada página celebra a mulher que conhece o próprio valor, que não tem medo do próprio desejo e que transformou a maturidade na sua fase mais magnética.
+        </p>
+
+        <div class="manifesto-quote-box">
+          <p>“A maturidade me ensinou que a sensualidade mais bonita não faz barulho; ela mora na delicadeza de quem cuida do próprio espaço e começa o dia em paz.”</p>
+        </div>
+
+        <p class="manifesto-text">
+          Do toque macio do cetim bordô pela manhã e o aroma do primeiro café quente, passando pelo sol vibrante à beira da piscina até o mistério relaxante de um banho de espuma à luz de velas: você é convidado(a) a mergulhar na intimidade elegante de Mari.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SEÇÃO OS 4 ATOS (ESTRUTURA DO LIVRO-ENSAIO)
+       ======================================================== -->
+  <section id="atos" class="acts-section">
+    <div class="container">
+      
+      <div class="acts-header">
+        <span class="section-tag">Por Dentro da Obra</span>
+        <h2 class="section-title">
+          Uma Narrativa Visual Dividida em <span>Quatro Atos</span>
+        </h2>
+        <div class="gold-divider"></div>
+        <p style="color: var(--text-muted); font-size: 0.98rem;">
+          Ao longo de 12 páginas diagramadas com acabamento de revista de arte, você acompanha cada momento do dia de Mari em alta resolução.
+        </p>
+      </div>
+
+      <div class="acts-grid">
+        
+        <!-- ATO I -->
+        <article class="act-card">
+          <div class="act-img-wrapper">
+            <img src="Arrumando a cama com elegância.png" alt="Ato I - Manhã de Cetim e Aroma">
+            <span class="act-number-badge">Ato I • O Despertar</span>
+          </div>
+          <div class="act-body">
+            <div>
+              <h3 class="act-title">Manhã de Cetim &amp; Aroma</h3>
+              <p class="act-desc">
+                A luz suave que atravessa a janela do quarto, o toque do cetim bordô e a pausa silenciosa para saborear o primeiro café quente do dia de olhos fechados.
+              </p>
+            </div>
+            <p class="act-quote">
+              “Hoje eu prefiro a vida como o meu café da manhã: quente, verdadeira e apreciada sem pressa.”
+            </p>
+          </div>
+        </article>
+
+        <!-- ATO II -->
+        <article class="act-card">
+          <div class="act-img-wrapper">
+            <img src="1000553750.png" alt="Ato II - Luz Solar e Presença">
+            <span class="act-number-badge">Ato II • Meio-Dia</span>
+          </div>
+          <div class="act-body">
+            <div>
+              <h3 class="act-title">Luz Solar &amp; Presença</h3>
+              <p class="act-desc">
+                Sob o sol tropical à beira da piscina, o contraste entre o vermelho vibrante e o azul das águas revela um olhar acolhedor, seguro e cheio de magnetismo.
+              </p>
+            </div>
+            <p class="act-quote">
+              “Quem aprendeu a nadar nas próprias emoções jamais teme a profundidade de um novo olhar.”
+            </p>
+          </div>
+        </article>
+
+        <!-- ATO III -->
+        <article class="act-card">
+          <div class="act-img-wrapper">
+            <img src="Leitura Tranquila à Beira da Piscina.png" alt="Ato III - Relacionamentos Maduros">
+            <span class="act-number-badge">Ato III • Tarde Solar</span>
+          </div>
+          <div class="act-body">
+            <div>
+              <h3 class="act-title">Relacionamentos Maduros &amp; Liberdade</h3>
+              <p class="act-desc">
+                Momentos de leitura, paixão rubro-negra, curvas reais que não pedem desculpas e o frescor revigorante de um banho de ducha sob o sol.
+              </p>
+            </div>
+            <p class="act-quote">
+              “Uma mente instigante é o maior afrodisíaco que existe. Ler, refletir e evoluir fazem parte do charme.”
+            </p>
+          </div>
+        </article>
+
+        <!-- ATO IV -->
+        <article class="act-card">
+          <div class="act-img-wrapper">
+            <img src="Banho de Espuma à Luz de Velas.png" alt="Ato IV - Refúgio à Luz de Velas">
+            <span class="act-number-badge">Ato IV • Anoitecer</span>
+          </div>
+          <div class="act-body">
+            <div>
+              <h3 class="act-title">Refúgio Íntimo à Luz de Velas</h3>
+              <p class="act-desc">
+                Quando a noite chega, o calor do sol cede espaço ao aconchego do spa. Toalha branca, espuma perfumada e a paz de uma mulher que brilha até no escuro.
+              </p>
+            </div>
+            <p class="act-quote">
+              “O verdadeiro mistério de uma mulher madura está na serenidade com que ela escolhe a quem se revelar.”
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SEÇÃO PRÉVIA VISUAL (GALERIA BENTO)
+       ======================================================== -->
+  <section id="previa" class="preview-section">
+    <div class="container">
+      
+      <div class="preview-header">
+        <span class="section-tag">Amostra da Qualidade Editorial</span>
+        <h2 class="section-title">
+          Cada Fotografia Conta uma <span>História de Plenitude</span>
+        </h2>
+        <div class="gold-divider"></div>
+        <p style="color: var(--text-muted); font-size: 0.96rem;">
+          Veja alguns dos cenários exclusivos que compõem o seu exemplar digital em alta definição:
+        </p>
+      </div>
+
+      <div class="gallery-bento">
+        
+        <div class="bento-item span-5 row-2">
+          <img src="Mulher Desfrutando do Banho na Piscina.png" alt="Frescor sob a ducha da piscina">
+          <div class="bento-caption">
+            <span>Página 09 • Renovação</span>
+            <p>“Deixar a água levar tudo o que não soma...”</p>
+          </div>
+        </div>
+
+        <div class="bento-item span-7">
+          <img src="Retrato no Spa com Toalha Branca.png" alt="Retrato no Spa com Toalha Branca" style="object-position: center 15%;">
+          <div class="bento-caption">
+            <span>Página 10 • Refúgio Sensorial</span>
+            <p>“A elegância do que fica subentendido.”</p>
+          </div>
+        </div>
+
+        <div class="bento-item span-4">
+          <img src="Retrato à beira da piscina com maiô listrado.png" alt="Paixão e atitude à beira da piscina" style="object-position: center 15%;">
+          <div class="bento-caption">
+            <span>Página 08 • Presença</span>
+            <p>“De frente para o desejo, de costas para o medo.”</p>
+          </div>
+        </div>
+
+        <div class="bento-item span-3" style="grid-column: span 3;">
+          <img src="Banho de espuma relaxante no spa.png" alt="Noite à luz de velas no spa">
+          <div class="bento-caption">
+            <span>Página 11 • Spa</span>
+            <p>“Paz na pele, fogo na alma.”</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       POR QUE TER ESTA EDIÇÃO (BENEFÍCIOS)
+       ======================================================== -->
+  <section class="features-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin: 0 auto;">
+        <span class="section-tag">Experiência Premium</span>
+        <h2 class="section-title">
+          Desenvolvido com Cuidado em <span>Cada Detalhe</span>
+        </h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">✦</div>
+          <h3>Fotografia em Alta Definição</h3>
+          <p>
+            Todas as 10 fotografias do ensaio foram tratadas em altíssima nitidez, preservando iluminação natural, texturas e cores ricas para visualização perfeita em qualquer tela.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">📖</div>
+          <h3>Diagramação de Revista de Luxo</h3>
+          <p>
+            Tipografia editorial clássica (Cormorant Garamond), molduras douradas e paleta em tons de vinho e marfim que transformam a leitura em um ritual sofisticado.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">🔒</div>
+          <h3>Acesso Vitalício &amp; Discreto</h3>
+          <p>
+            Receba imediatamente no seu e-mail após a confirmação do pagamento. Você pode baixar o PDF e guardar para sempre no seu celular, tablet ou computador.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       DEPOIMENTOS / LEITORES
+       ======================================================== -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+        <span class="section-tag">Quem Já Acompanha a Mari</span>
+        <h2 class="section-title">
+          O Que Dizem Sobre <span>A Arte de Ser Intensa</span>
+        </h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              “Parece uma revista europeia de fotografia! As imagens da Mari estão deslumbrantes, de um bom gosto absurdo, e as frases parecem conversar diretamente com a gente.”
+            </p>
+          </div>
+          <div class="testimonial-author">
+            Carlos Eduardo M.
+            <span>Acesso confirmado • São Paulo, SP</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              “Comprei porque amo os conteúdos do Frases Maduras e fiquei encantada. É inspirador ver uma mulher madura retratada com tanta elegância, poder e naturalidade.”
+            </p>
+          </div>
+          <div class="testimonial-author">
+            Helena Vasconcelos
+            <span>Acesso confirmado • Curitiba, PR</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              “A qualidade das fotos no celular e no iPad é impecável. O Ato IV no spa à luz de velas e a parte da piscina são verdadeiras obras de arte. Vale cada centavo!”
+            </p>
+          </div>
+          <div class="testimonial-author">
+            Roberto A. Siqueira
+            <span>Acesso confirmado • Belo Horizonte, MG</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SEÇÃO DE OFERTA / CHECKOUT
+       ======================================================== -->
+  <section id="oferta" class="offer-section">
+    <div class="container">
+      
+      <div class="offer-box">
+        <div class="offer-ribbon">Oferta Especial de Lançamento</div>
+
+        <!-- Coluna Esquerda: Capa 600x600 -->
+        <div class="offer-product-preview">
+          <img src="Capa_Hotmart_600x600.png" alt="MARI: A Arte de Ser Intensa - Capa Oficial">
+          <p style="font-size: 0.78rem; color: var(--gold-light); letter-spacing: 0.14em; text-transform: uppercase;">
+            Coleção Oficial • Frases Maduras
+          </p>
+        </div>
+
+        <!-- Coluna Direita: Stack de Valor + Preço + CTA -->
+        <div>
+          <span class="section-tag" style="margin-bottom: 10px;">Acesso Digital Imediato</span>
+          <h2 class="serif" style="font-size: 2.4rem; color: #fff; line-height: 1.15; margin-bottom: 12px;">
+            MARI: A Arte de Ser Intensa <span style="color: var(--gold-light); font-style: italic;">(Edição Completa)</span>
+          </h2>
+
+          <ul class="offer-checklist">
+            <li>
+              <span class="check">✔</span>
+              <span><strong>Livro-Ensaio Completo (12 Páginas)</strong> com estética de revista de luxo</span>
+            </li>
+            <li>
+              <span class="check">✔</span>
+              <span><strong>10 Fotografias Exclusivas em Alta Definição</strong> (Manhã, Piscina, Leitura &amp; Spa)</span>
+            </li>
+            <li>
+              <span class="check">✔</span>
+              <span><strong>Reflexões &amp; Frases Maduras Inéditas</strong> sobre desejo, autoestima e plenitude</span>
+            </li>
+            <li>
+              <span class="check">✔</span>
+              <span><strong>Download Vitalício em PDF</strong> (Compatível com celular, tablet e computador)</span>
+            </li>
+          </ul>
+
+          <div class="price-box">
+            <div class="price-old">De R$ 37,00 por apenas:</div>
+            <div class="price-main">
+              <small>R$</small> 11,97
+            </div>
+            <div class="price-installments">
+              Pagamento único • Acesso imediato via Pix ou Cartão
+            </div>
+          </div>
+
+          <!-- LINK OFICIAL DE CHECKOUT DA HOTMART -->
+          <a href="https://hotm.io/privado-Mari" target="_blank" rel="noopener" class="btn-cta" style="width: 100%;">
+            Garantir Meu Exemplar Agora
+            <span>→</span>
+          </a>
+          <span class="btn-cta-sub" style="text-align: center;">
+            ⚡ Liberação imediata no seu e-mail • Pagamento processado pela Hotmart
+          </span>
+        </div>
+      </div>
+
+      <!-- Garantia de 7 Dias -->
+      <div class="guarantee-strip">
+        <div class="guarantee-badge">
+          7
+          <small>Dias</small>
+        </div>
+        <div class="guarantee-text">
+          <h4>Garantia Incondicional de 7 Dias</h4>
+          <p>
+            Sua compra é 100% protegida pela plataforma Hotmart. Você tem 7 dias para apreciar cada página do livro-ensaio. Se por qualquer motivo sentir que não superou suas expectativas, basta solicitar o reembolso com um único clique.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FAQ (PERGUNTAS FREQUENTES)
+       ======================================================== -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+        <span class="section-tag">Tire Suas Dúvidas</span>
+        <h2 class="section-title">
+          Perguntas <span>Frequentes</span>
+        </h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>Como e quando vou receber o meu acesso ao Livro-Ensaio?</summary>
+          <p>
+            O envio é <strong>100% digital e imediato</strong>. Assim que o seu pagamento for confirmado (no Pix ou Cartão de Crédito leva apenas alguns segundos), você receberá um e-mail automático da Hotmart com o link exclusivo para abrir e baixar o seu PDF em alta definição.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Posso abrir no celular, tablet ou computador?</summary>
+          <p>
+            Sim! O arquivo foi diagramado em formato universal (PDF de Alta Resolução) que se adapta perfeitamente à tela do seu smartphone (Android ou iPhone), iPad/tablet ou computador, permitindo até dar zoom para apreciar cada detalhe das fotografias.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>A compra é segura e discreta na fatura do cartão?</summary>
+          <p>
+            Totalmente. Todo o pagamento é processado pela <strong>Hotmart</strong>, a maior e mais segura plataforma de produtos digitais da América Latina. Seus dados são criptografados e a descrição na fatura aparece de forma discreta e abreviada.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Por quanto tempo terei acesso ao material?</summary>
+          <p>
+            O seu acesso é <strong>vitalício</strong>. Uma vez baixado no seu aparelho, o livro-ensaio "MARI: A Arte de Ser Intensa" é seu para sempre, para ler e admirar sempre que desejar.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       RODAPÉ
+       ======================================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-brand">MARI • Frases Maduras</div>
+      <p style="max-width: 540px; margin: 0 auto; font-size: 0.82rem;">
+        “Ser madura é descobrir que a melhor fase da nossa vida é exatamente esta que estamos vivendo agora — com mais consciência, mais charme e nenhum medo de ser feliz.”
+      </p>
+      <div class="footer-links">
+        <a href="#sobre">Sobre o Ensaio</a>
+        <a href="#atos">Os 4 Atos</a>
+        <a href="#previa">Prévia</a>
+        <a href="https://hotm.io/privado-Mari" target="_blank" rel="noopener">Adquirir Agora</a>
+      </div>
+      <p style="opacity: 0.55; margin-top: 18px; font-size: 0.74rem;">
+        &copy; 2026 Coleção Frases Maduras — Todos os direitos reservados. Proibida a reprodução ou distribuição sem autorização.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
